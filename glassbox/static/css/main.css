@@ -1,0 +1,49 @@
+.full-height {
+/*    min-height: 100vh;*/
+    position: relative;
+    min-height: 400px;
+}
+
+.middle {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+/*    position: absolute;
+    top: 50%;
+    transform: perspective( 1px ) translateY(-50%);
+*/}
+
+svg {
+    -webkit-touch-callout: none; /* iOS Safari */
+        -webkit-user-select: none; /* Safari */
+         -khtml-user-select: none; /* Konqueror HTML */
+           -moz-user-select: none; /* Firefox */
+            -ms-user-select: none; /* Internet Explorer/Edge */
+                user-select: none; /* Non-prefixed version, currently
+                                      supported by Chrome and Opera */
+}
+
+svg .modified-line {
+    fill: none;
+    stroke: red;
+    stroke-width: 3px;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+}
+
+svg text {
+    cursor: default;
+}
+
+.viz-container {
+    text-align: center;
+}
+
+.viz-container .btn-group {
+    margin-top: 3rem;
+}
+
+button.evaluate {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
